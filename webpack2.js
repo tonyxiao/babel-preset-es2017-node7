@@ -1,5 +1,7 @@
 'use strict'
 
+// WARNING: Not actively maintain atm
+
 const babelPluginTransformClassProperties = require('babel-plugin-transform-class-properties')
 const babelPluginTransformObjectRestSpread = require('babel-plugin-transform-object-rest-spread')
 const babelPluginSyntaxTrailingFunctionCommas = require('babel-plugin-syntax-trailing-function-commas')
