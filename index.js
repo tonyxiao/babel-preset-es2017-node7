@@ -28,7 +28,10 @@ module.exports = {
     // stage 2
     require('babel-plugin-syntax-dynamic-import'),
     require('babel-plugin-transform-class-properties'),
-    require('babel-plugin-transform-unicode-property-regex'),
+    // Causes issues...
+    // node_modules/@tonyxiao/babel-preset-node/index.js" provided an invalid property of "default"
+    // No idea why so forget it... 
+    // require('babel-plugin-transform-unicode-property-regex'),
 
     // stage 3
     require('babel-plugin-transform-object-rest-spread'),
