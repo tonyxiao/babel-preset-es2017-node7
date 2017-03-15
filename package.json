@@ -1,6 +1,6 @@
 {
   "name": "@tonyxiao/babel-preset-node",
-  "version": "7.6",
+  "version": "7.6.0",
   "description": "Babel preset to use flow, jsx, and stage-0 with latest version of node with least amount of transpiation possible. Version / tag corresponds to min node version supported",
   "main": "index.js",
   "files": [
